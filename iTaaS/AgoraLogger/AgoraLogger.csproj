@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+		<RuntimeIdentifiers>win10-x64;ubuntu.18.04-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+</Project>
